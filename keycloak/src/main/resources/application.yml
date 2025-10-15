@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+keycloak:
+  auth-url: http://localhost:8080/realms/master/protocol/openid-connect/token
+  users-url: http://localhost:8080/admin/realms/myrealm/users
+  client-id: admin-cli
+  username: admin
+  password: admin
+

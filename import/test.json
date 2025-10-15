@@ -1,0 +1,159 @@
+{
+    "id": "myrealm",
+    "realm": "myrealm",
+    "enabled": true,
+    "groups": [
+      {
+        "name": "Администраторы",
+        "subGroups": [
+          {
+            "name": "Старшие администраторы"
+          },
+          {
+            "name": "Младшие администраторы"
+          }
+        ]
+      },
+      {
+        "name": "Пользователи",
+        "subGroups": [
+          {
+            "name": "Премиум пользователи",
+            "subGroups": [
+              {
+                "name": "VIP пользователи"
+              }
+            ]
+          },
+          {
+            "name": "Обычные пользователи"
+          }
+        ]
+      },
+      {
+        "name": "Гости"
+      }
+    ],
+    "users": [
+      {
+        "username": "alex_ivanov",
+        "email": "alex@example.com",
+        "firstName": "Алексей",
+        "lastName": "Иванов",
+        "enabled": true,
+        "credentials": [
+          {
+            "type": "password",
+            "value": "password123",
+            "temporary": false
+          }
+        ],
+        "groups": ["Администраторы/Старшие администраторы"]
+      },
+      {
+        "username": "maria_petrova",
+        "email": "maria@example.com",
+        "firstName": "Мария",
+        "lastName": "Петрова",
+        "enabled": true,
+        "credentials": [
+          {
+            "type": "password",
+            "value": "password123",
+            "temporary": false
+          }
+        ],
+        "groups": ["Администраторы/Младшие администраторы"]
+      },
+      {
+        "username": "sergey_sidorov",
+        "email": "sergey@example.com",
+        "firstName": "Сергей",
+        "lastName": "Сидоров",
+        "enabled": true,
+        "credentials": [
+          {
+            "type": "password",
+            "value": "password123",
+            "temporary": false
+          }
+        ],
+        "groups": ["Пользователи/Премиум пользователи/VIP пользователи"]
+      },
+      {
+        "username": "olga_kuznetsova",
+        "email": "olga@example.com",
+        "firstName": "Ольга",
+        "lastName": "Кузнецова",
+        "enabled": false,
+        "credentials": [
+          {
+            "type": "password",
+            "value": "password123",
+            "temporary": false
+          }
+        ],
+        "groups": ["Пользователи/Премиум пользователи"]
+      },
+      {
+        "username": "dmitry_fedorov",
+        "email": "dmitry@example.com",
+        "firstName": "Дмитрий",
+        "lastName": "Федоров",
+        "enabled": true,
+        "credentials": [
+          {
+            "type": "password",
+            "value": "password123",
+            "temporary": false
+          }
+        ],
+        "groups": ["Пользователи/Обычные пользователи"]
+      },
+      {
+        "username": "ekaterina_novikova",
+        "email": "ekaterina@example.com",
+        "firstName": "Екатерина",
+        "lastName": "Новикова",
+        "enabled": false,
+        "credentials": [
+          {
+            "type": "password",
+            "value": "password123",
+            "temporary": false
+          }
+        ],
+        "groups": ["Гости"]
+      },
+      {
+        "username": "ivan_smirnov",
+        "email": "ivan@example.com",
+        "firstName": "Иван",
+        "lastName": "Смирнов",
+        "enabled": true,
+        "credentials": [
+          {
+            "type": "password",
+            "value": "password123",
+            "temporary": false
+          }
+        ],
+        "groups": ["Пользователи/Обычные пользователи"]
+      },
+      {
+        "username": "natalia_orlova",
+        "email": "natalia@example.com",
+        "firstName": "Наталья",
+        "lastName": "Орлова",
+        "enabled": true,
+        "credentials": [
+          {
+            "type": "password",
+            "value": "password123",
+            "temporary": false
+          }
+        ],
+        "groups": ["Пользователи/Премиум пользователи"]
+      }
+    ]
+  }
